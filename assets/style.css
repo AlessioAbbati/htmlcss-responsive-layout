@@ -43,8 +43,17 @@ header {
     color: white;
 }
 
-@media (max-widht: 768px) {
-    
+@media (max-width: 768px) {
+    .navbar {
+        margin-right: 2rem;
+        margin-left: 2rem;
+    }
+    .bars {
+        display: block;
+    }
+    .listbar {
+        display: none;
+    }
 }
 
 /* MAIN */
