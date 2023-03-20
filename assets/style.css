@@ -61,8 +61,8 @@ header {
 /* section-1 */
 
 .container {
-	max-width: 1000px;
-	margin-inline: auto;
+	margin-left: 12rem;
+    margin-right: 12rem;
 	padding-inline: 1rem;
     margin-top: 2rem;
 }
@@ -98,7 +98,8 @@ header {
     color: #1F93FD;
 }
 .cell .content {
-	height: 250px;
+	height: 100%;
+    padding: .5rem;
 }
 .content {
     background-color: #B5DDFF;
@@ -128,17 +129,33 @@ header {
 	flex-basis: 66.6666%;
 }
 
+@media (max-width: 768px) {
+    .container {
+        margin: 1rem 1rem;
+    }
+}
+@media (max-width: 480px) {
+    .container {
+        margin: 1rem 1rem;
+        width: 100%;
+    }
+    .cells {
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
 /* section-2 */
 
 .sec-2 {
     background-color: #9792E4;
 }
 .sec-2 .container {
+    max-width: 800px;
     display: flex;
     align-items: center;
-    max-width: 800px;
     background-color: #9792E4;
-    height: 500px;
+    height: 100%;
 }
 .plan {
     flex-basis: calc(100% / 2);
@@ -154,6 +171,9 @@ header {
 }
 .plan-1 h2 {
     margin-bottom: 1rem;
+}
+.plan-1 {
+    color: white;
 }
 .plan-2 {
     background-color: white;
@@ -173,6 +193,12 @@ header {
     border-radius: 100%;
 }
 
+@media (max-width: 768px) {
+    .sec-2 .container {
+        display: flex;
+        flex-direction: column;
+    }
+}
 /* section-3 */
 
 .text-title {
@@ -297,7 +323,6 @@ header {
     background-color: #9792E4;
 }
 .sec-6 .container {
-    width: 500px;
     text-align: center;
     color: white;
 }
@@ -338,7 +363,6 @@ footer {
 footer .container {
     color: white;
     text-align: center;
-    width: 400px;
     margin-top: -2rem;
 }
 footer .container p {
