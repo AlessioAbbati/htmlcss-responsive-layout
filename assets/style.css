@@ -150,6 +150,7 @@ header {
     background-color: white;
     border-radius: 1rem;
     align-self: flex-end;
+    margin-bottom: 1rem;
 }
 .sec-2 .container .plan-1 img {
     width: 60%;
@@ -162,3 +163,43 @@ header {
     background-color: #9792E4;
     border-radius: 100%;
 }
+
+/* section-3 */
+
+.text-title {
+    text-align: center;
+}
+.sec-3 .container .text h1 {
+    font-size: 3rem;
+    color: #9792E4;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.card {
+    background-color: #9792E4;
+    padding-inline: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-bottom: 1rem;
+}
+.sec-3 .container .card img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    padding: 1rem;
+}
+.card .text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    padding-inline: 1rem;
+}
+.card .text h4 {
+    margin-top: 3rem;
+}
+
+/* section-4 */
