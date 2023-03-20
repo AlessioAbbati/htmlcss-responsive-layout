@@ -169,7 +169,7 @@ header {
 .text-title {
     text-align: center;
 }
-.sec-3 .container .text h1 {
+.sec-3 .container .text-title h1 {
     font-size: 3rem;
     color: #9792E4;
     margin-top: 1rem;
@@ -203,3 +203,40 @@ header {
 }
 
 /* section-4 */
+
+.sec-4 {
+    background-color: #9792E4;
+}
+.sec-4 .container h1 {
+    font-size: 3rem;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+.benefits {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.benefit {
+    background-color: white;
+    border-radius: 1rem;
+    padding-inline: 1rem;
+    width: calc(100% / 3 - 1rem);
+}
+.sec-4 .container .benefits .benefit h1 {
+    color: #9792E4;
+    text-align: left;
+}
+.sec-4 .container .benefits h2 {
+    color: #9792E4;
+}
+.sec-4 .container .benefits .benefit button {
+    background-color: #9792E4;
+    color: white;
+    padding: .5rem 3rem;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+}
