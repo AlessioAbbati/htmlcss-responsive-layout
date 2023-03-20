@@ -118,3 +118,47 @@ header {
 .cell-hero {
 	flex-basis: 66.6666%;
 }
+
+/* section-2 */
+
+.sec-2 {
+    background-color: #9792E4;
+}
+.sec-2 .container {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    background-color: #9792E4;
+    height: 500px;
+}
+.plan {
+    flex-basis: calc(100% / 2);
+    padding-inline: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.plan-1 img {
+    margin-bottom: 4rem;
+}
+.plan-1 h2 {
+    margin-bottom: 1rem;
+}
+.plan-2 {
+    background-color: white;
+    border-radius: 1rem;
+    align-self: flex-end;
+}
+.sec-2 .container .plan-1 img {
+    width: 60%;
+}
+.sec-2 .container .plan-2 img {
+    width: 40%;
+}
+.arrow {
+    padding: .5rem;
+    background-color: #9792E4;
+    border-radius: 100%;
+}
