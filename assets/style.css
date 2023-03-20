@@ -168,6 +168,7 @@ header {
 
 .text-title {
     text-align: center;
+    padding-bottom: 2rem;
 }
 .sec-3 .container .text-title h1 {
     font-size: 3rem;
@@ -215,10 +216,10 @@ header {
     text-align: center;
 }
 .benefits {
-    width: 100%;
     display: flex;
     flex-wrap: wrap;
     gap: 1rem;
+    padding-bottom: 1rem;
 }
 .benefit {
     background-color: white;
@@ -245,11 +246,11 @@ header {
 
 .sec-5 .container {
     display: flex;
+    justify-content: space-between;
 }
 .sec-5 .container .text {
-    width: 60%;
-    padding-inline: 5rem;
-    margin-right: 6rem;
+    width: 80%;
+    padding-inline: 2rem;
 }
 .sec-5 .container .img {
     width: 20%;
@@ -279,4 +280,59 @@ header {
     font-size: 4rem;
     top: 0;
     right: 0;
+}
+
+/* section-6 */
+
+.sec-6 {
+    background-color: #9792E4;
+}
+.sec-6 .container {
+    width: 500px;
+    text-align: center;
+    color: white;
+}
+.start {
+    color: lightgray;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    font-size: .7rem;
+}
+.sec-6 .container h2 {
+    font-size: 2rem;
+}
+.sec-6 .container h1 {
+    color: #EDBA74;
+    font-size: 4rem;
+    margin-top: 1rem;
+}
+.sec-6 .container button {
+    background-color: white;
+    color: #9792E4;
+    padding: 1rem 3rem;
+    border-radius: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+}
+.dot {
+    font-size: .2rem;
+}
+.copyright {
+    padding-bottom: 2rem;
+}
+
+/* footer */
+
+footer {
+    background-color: #3A3A3A;
+}
+footer .container {
+    color: white;
+    text-align: center;
+    width: 400px;
+    margin-top: -2rem;
+}
+footer .container p {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 }
