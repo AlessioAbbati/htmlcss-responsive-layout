@@ -9,21 +9,20 @@
 /* header */
 
 header {
-    background-color: #0084FD;;
+    background-color: #0084FD;
 }
 .navbar {
     height: 4rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-left: 15rem;
-    margin-right: 15rem;
+    margin-left: 12rem;
+    margin-right: 12rem;
 }
 .listbar {
     list-style: none;
     display: flex;
     align-items: center;
-    
 }
 .navbar .listbar a {
     color: white;
@@ -35,10 +34,87 @@ header {
 .navbar .listbar button {
     padding: .5rem .5rem;
     border-radius: 2rem;
+    margin-bottom: 1rem;
 }
 .bars {
     display: none;
 }
 .navham {
     color: white;
+}
+
+@media (max-widht: 768px) {
+    
+}
+
+/* MAIN */
+
+/* section-1 */
+
+.container {
+	max-width: 1000px;
+	margin-inline: auto;
+	padding-inline: 1rem;
+    margin-top: 2rem;
+}
+
+.grid {
+	--gapx: 1rem;
+	--gapy: 2rem;
+}
+
+.cells {
+    display: flex;
+	flex-wrap: wrap;
+}
+.phone {
+    width: 30%;
+}
+.cell-hero .content {
+    display: flex;
+    justify-content: space-between;
+    padding-inline: 1rem;
+    text-align: left;
+}
+.cell-hero .content h2,p,button {
+    margin-top: 1rem;
+}
+.cell-hero .content button {
+    color: white;
+    background-color: #1F93FD;
+    padding: .5rem 2rem;
+    border-radius: 1rem;
+}
+.cell .content h2 {
+    color: #1F93FD;
+}
+.cell .content {
+	height: 250px;
+}
+.content {
+    background-color: #B5DDFF;
+    border-radius: 1rem;
+    text-align: center;
+}
+.cell .content .file,.compass,.pc,.horn {
+    font-size: 4rem;
+    color: #1F93FD;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.grid {
+	overflow: hidden;
+}
+
+.cells {
+	margin: 0 calc(-1 * var(--gapx) / 2) calc(-1 * var(--gapy));
+}
+
+.cell {
+	flex-basis: 33.3333%;
+	padding: 0 calc(var(--gapx) / 2) var(--gapy);
+}
+
+.cell-hero {
+	flex-basis: 66.6666%;
 }
