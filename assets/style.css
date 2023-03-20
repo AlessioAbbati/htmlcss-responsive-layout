@@ -1,0 +1,38 @@
+/* general style */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* header */
+
+header {
+    background-color: #0084FD;;
+}
+.navbar {
+    height: 4rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15rem;
+    margin-right: 15rem;
+}
+.listbar {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    
+}
+.navbar .listbar a {
+    color: white;
+    text-decoration: none;
+}
+.navbar .listbar li {
+    margin-inline: 1rem;
+}
+.navbar .listbar button {
+    padding: .5rem .5rem;
+    border-radius: 2rem;
+}
