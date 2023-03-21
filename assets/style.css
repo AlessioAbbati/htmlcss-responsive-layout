@@ -161,6 +161,13 @@ header {
         flex-direction: column;
         align-items: center;
     }
+    .grid .cells .cell .content {
+        padding-inline: 2rem;
+        padding-bottom: 2rem;
+    }
+    .grid .cells .cell-hero .content .text {
+        padding-inline: .5rem;
+    }
     .phone {
         width: 70%;
         margin-top: 1rem;
@@ -259,6 +266,23 @@ header {
     margin-top: 3rem;
 }
 
+@media (max-width: 768px) {
+    .sec-3 .container {
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+    }
+}
+@media (max-width: 480px) {
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .card .text h4 {
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+}
 /* section-4 */
 
 .sec-4 {
