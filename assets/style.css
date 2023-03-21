@@ -389,6 +389,9 @@ header {
 }
 
 @media (max-width: 768px) {
+    .sec-5 .container {
+        max-width: min-content;
+    }
     .sec-5 .container .img {
         font-size: 50%;
     }
@@ -397,6 +400,9 @@ header {
     }
 }
 @media (max-width: 480px) {
+    .sec-5 .container {
+        max-width: min-content;
+    }
     .sec-5 .container {
         display: flex;
         flex-direction: column;
