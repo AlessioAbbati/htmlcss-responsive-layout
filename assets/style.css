@@ -372,6 +372,20 @@ header {
     right: 0;
 }
 
+@media (max-width: 768px) {
+    .sec-5 .container .img {
+        font-size: 50%;
+    }
+    .sec-5 .container .img h2 {
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 480px) {
+    .sec-5 .container {
+        display: flex;
+        flex-direction: column;
+    }
+}
 /* section-6 */
 
 .sec-6 {
